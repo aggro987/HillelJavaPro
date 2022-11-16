@@ -8,7 +8,6 @@ import Les6.HW.Abstract.Obstacles;
 import Les6.HW.Model.Obstacles.RunningTrack;
 import Les6.HW.Abstract.Partecipanti;
 import Les6.HW.Model.Partecipanti.Robot;
-//Испр
 
 
 public class Main {
@@ -18,7 +17,7 @@ public class Main {
         Partecipanti[] participants = {
                 new Human("Tolik", 200, 20),
                 new Human("Vovik", 251, 25),
-                new Robot("Walli",1000,20),
+                new Robot("Walli", 1000, 20),
                 new Human("Kolya", 400, 31),
                 new Cat("Barsik", 200, 30),
         };

@@ -21,11 +21,10 @@ public class RunningTrack extends Obstacles {
             return true;
         } else {
             System.out.println("Учасник " + partecipanti.getNAME() + " не смог преодолеть препядствие \"" + NAME +
-                    "\" на дистанции " + length + " метров. Смог только: "+partecipanti.getMaxLength()+" м.");
+                    "\" на дистанции " + length + " метров. Смог только: " + partecipanti.getMaxLength() + " м.");
             return false;
         }
     }
-
 
 
     public int getLength() {

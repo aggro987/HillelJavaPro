@@ -15,13 +15,13 @@ public class Car extends Obstacles {
 
     @Override
     public boolean overcome(Partecipanti partecipanti) {
-        if (partecipanti.jump() >= height ) {
+        if (partecipanti.jump() >= height) {
             System.out.println("Учасник " + partecipanti.getNAME() + " смог преодолеть препядствие \"" + NAME +
                     "\" на высоту " + height + " метров.");
             return true;
         } else {
             System.out.println("Учасник " + partecipanti.getNAME() + " не смог преодолеть препядствие \"" + NAME +
-                    "\" на высоту " + height + " метров. Смог только "+partecipanti.getMaxJump()+" м.");
+                    "\" на высоту " + height + " метров. Смог только " + partecipanti.getMaxJump() + " м.");
             return false;
         }
     }
