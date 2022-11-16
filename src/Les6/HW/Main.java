@@ -8,6 +8,7 @@ import Les6.HW.Abstract.Obstacles;
 import Les6.HW.Model.Obstacles.RunningTrack;
 import Les6.HW.Abstract.Partecipanti;
 import Les6.HW.Model.Partecipanti.Robot;
+//Исп
 
 
 public class Main {
